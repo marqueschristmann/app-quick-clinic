@@ -1,0 +1,28 @@
+{
+  "trailingComma": "all",
+  "printWidth": 100,
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "singleQuote": true,
+  "semi": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "importOrderSeparation": true,
+  "importOrder": [
+    "^@ui/(.*)$",
+    "^@server/(.*)$",
+    "^services/(.*)$",
+    "^useCases/(.*)$",
+    "^hooks/(.*)$",
+    "^lib/(.*)$",
+    "^pages/(.*)$",
+    "^contexts/(.*)$",
+    "^components/(.*)$",
+    "^styles/(.*)$",
+    "^constants/(.*)$",
+    "^models/(.*)$",
+    "^assets/(.*)$",
+    "^[./]"
+  ],
+  "experimentalBabelParserPluginsList": ["jsx", "typescript"]
+}

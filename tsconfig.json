@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "extends": "expo/tsconfig.base",
+  "exclude": [
+    "__tests__/**/*-test.ts"
+  ]
+}

@@ -1,0 +1,1 @@
+export { ListClinics } from './ListClinics'
